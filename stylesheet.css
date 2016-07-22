@@ -18,7 +18,7 @@ body{
 }
 .wrapper {
   width: 100%;
-  max-width: 1000px;
+  max-width: 800px;
   margin-left: auto; /* margin-left: auto + margin-right: auto zentriert eine Box, deren display property static oder block ist. */
   margin-right: auto;
   background: #fff;
@@ -38,13 +38,14 @@ body{
 }
 
 .logo {
-  font-size: 26px;
+  font-size: 20px;
   display: inline-block;
   text-align: center;
   width: auto;
   color: #336666;
   margin-bottom: -1em;
   margin-top: -1.5em;
+  float: right;
 }
 
 .main-nav,
@@ -80,13 +81,19 @@ body{
 
 .main-nav__list__item a:hover,
 .main-nav__list__item a.active {
-  background: #86b2aa;
-  color: white;
+  color: #f9a928;
 }
 
 img{
   width: 100%;
-  padding: 1em;
+  padding-right: 2em;
+  padding-left: 2em;
   margin-left: auto;
   margin-right: auto;
+}
+
+.introduction{
+  font-size: 28px;
+  text-align: center;
+
 }
