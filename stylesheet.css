@@ -16,6 +16,11 @@ body{
   display: flex;
   align-items: flex-start;
 }
+
+h2{
+  font-size: 20px;
+}
+
 .wrapper {
   width: 100%;
   max-width: 800px;
@@ -95,5 +100,16 @@ img{
 .introduction{
   font-size: 28px;
   text-align: center;
+}
 
+.travelblog{
+  text-decoration: none;
+  color: #f9a928;
+  text-align: center;
+}
+
+.aboutme{
+  margin-left: 5em;
+  margin-top: 1em;
+  color: #336666;
 }
