@@ -1,0 +1,84 @@
+html{
+  font-family: 'Poppins', sans-serif;
+}
+
+* { /*Kommentar: Der Sternchen-Block bewirkt, dass alle %-Werte sich gegenseitig beeinflussen und man nicht an den einzelnen Werten schrauben muss. Tipp von Lorenz. Muss nicht ins html geschrieben werden, wirkt aus CSS von allein.*/
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #86b2aa;
+  color: black;
+  display: flex;
+  align-items: flex-start;
+}
+.wrapper {
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto; /* margin-left: auto + margin-right: auto zentriert eine Box, deren display property static oder block ist. */
+  margin-right: auto;
+  background: #fff;
+  border-top: 10px solid #336666;
+}
+
+.row {
+  display: inline-block;
+  width: 100%;
+  padding: 1em;
+}
+
+@media only screen and (min-width: 720px) {
+  .row {
+    padding: 1.5em 4em;
+  }
+}
+
+.logo {
+  font-size: 26px;
+  display: inline-block;
+  width: auto;
+  color: #336666;
+  margin-bottom: -1em;
+  margin-top: -1.5em;
+}
+
+.main-nav,
+.main-nav__list {
+  width: 100%;
+}
+
+.main-nav__list {
+  padding: 0;
+  margin: 0;
+  border-top: 2px dotted #336666;
+}
+
+.main-nav__list__item {
+  list-style: none; /* Das list__item soll keine Listenpunkte erhalten. */
+}
+
+@media only screen and (min-width: 720px) {
+  .main-nav__list__item {
+    display: inline-block;
+  }
+}
+
+.main-nav__list__item a {
+  display: inline-block;
+  width: 100%;
+  padding: 1em;
+  text-decoration: none; /* Links sollen nicht unterstrichen sein. */
+  color: #336666;
+}
+
+/* Bei Mouseover oder mit active-Klasse ist der Button der Navigation purple hinterlegt und die Textfarbe weiß.  */
+
+.main-nav__list__item a:hover,
+.main-nav__list__item a.active {
+  background: #336666;
+  color: white;
+}
