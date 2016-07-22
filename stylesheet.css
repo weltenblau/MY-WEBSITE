@@ -40,6 +40,7 @@ body{
 .logo {
   font-size: 26px;
   display: inline-block;
+  text-align: center;
   width: auto;
   color: #336666;
   margin-bottom: -1em;
@@ -54,7 +55,7 @@ body{
 .main-nav__list {
   padding: 0;
   margin: 0;
-  border-top: 2px dotted #336666;
+  border-top: 2px solid #86b2aa;
 }
 
 .main-nav__list__item {
@@ -79,6 +80,13 @@ body{
 
 .main-nav__list__item a:hover,
 .main-nav__list__item a.active {
-  background: #336666;
+  background: #86b2aa;
   color: white;
+}
+
+img{
+  width: 100%;
+  padding: 1em;
+  margin-left: auto;
+  margin-right: auto;
 }
