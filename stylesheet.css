@@ -89,31 +89,31 @@ h2{
   color: #f9a928;
 }
 
-.startbild{
-  width: 100%;
-  padding-right: 2em;
-  padding-left: 2em;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .introduction{
   font-size: 28px;
-  text-align: center;
   color: #336666;
+  text-align: center;
+  background-image: url(Bilder/me2.jpg);
+  padding-right: 2em;
+  padding-left: 2em;
 }
 
 .aboutme{
   margin-left: 5em;
   margin-top: 1em;
   color: #336666;
-  width: 50%;
+  width: 30%;
   float: left;
+  display: inline-block;
 }
 
 .imageme{
-  width: 50%;
+  width: 400px;
+  height: 700px
   float: right;
+  display: inline-block;
+  margin-left: 3em;
+  margin-top: 3em;
 }
 
 .aboutrow{
@@ -214,4 +214,10 @@ img{
   width: 50%;
   float: right;
   padding-bottom: 3em;
+}
+
+.bild9{
+  width: 100%
+  padding-bottom: 3em;
+  margin-bottom: 3em;
 }
