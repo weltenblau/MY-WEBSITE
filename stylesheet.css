@@ -89,7 +89,7 @@ h2{
   color: #f9a928;
 }
 
-img{
+.startbild{
   width: 100%;
   padding-right: 2em;
   padding-left: 2em;
@@ -100,16 +100,118 @@ img{
 .introduction{
   font-size: 28px;
   text-align: center;
-}
-
-.travelblog{
-  text-decoration: none;
-  color: #f9a928;
-  text-align: center;
+  color: #336666;
 }
 
 .aboutme{
   margin-left: 5em;
   margin-top: 1em;
   color: #336666;
+  width: 50%;
+  float: left;
+}
+
+.imageme{
+  width: 50%;
+  float: right;
+}
+
+.aboutrow{
+  display: inline-block;
+  width: 100%;
+}
+
+#footer{
+  font-size: 0.75rem;
+  text-align: center;
+  color: #86b2aa;
+}
+
+.contactsheet{
+  text-align: center;
+  color: #336666;
+  border: 2px dotted #86b2aa;
+  margin-left: 5em;
+  margin-right: 5em;
+  b
+}
+
+.resume{
+  border: 1px;
+  padding: 0.5em;
+  width: 200px;
+  background-color: #336666;
+  color: white;
+}
+
+.travelblog{
+  text-decoration: none; /* ich weiß nicht warum das nicht klappt, es bleibt unterstrichen*/
+  color: #f9a928;
+  text-align: center;
+}
+
+img{
+  width: 100%;
+  padding-right: 2em;
+  padding-left: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgcollection{
+  padding: 1em;
+
+}
+
+.coll1{
+  display: inline-block;
+  width: 100%;
+}
+
+.bild1{
+  width: 50%;
+  float: left;
+  padding-bottom: 3em;
+}
+
+.bild2{
+  width: 50%;
+  float:right;
+  padding-bottom: 3em;
+}
+
+.bild3{
+  width: 50%;
+  float:left;
+  padding-bottom: 3em;
+}
+
+.bild4{
+  width: 50%;
+  float: right;
+  padding-bottom: 3em;
+}
+
+.bild5{
+  width: 50%;
+  float: left;
+  padding-bottom: 3em;
+}
+
+.bild6{
+  width: 50%;
+  float:right;
+  padding-bottom: 3em;
+}
+
+.bild7{
+  width: 50%;
+  float:left;
+  padding-bottom: 3em;
+}
+
+.bild8{
+  width: 50%;
+  float: right;
+  padding-bottom: 3em;
 }
